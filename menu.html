@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Hospitalar</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Radley?categoryFilters=Feeling:%2FExpressive%2FBusiness;Serif:%2FSerif%2FOld+Style+Garalde">
+    <!--CHAMANDO O 'CSS' EXTERNO-->
+    <link rel="stylesheet" href="./src/css/menu.css">
+    <style>
+        body{
+            font-family: Radley;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Projeto Hospitalar</h1>
+        <nav>
+            <ul>
+                <li><a href="login.html" id="navInício">Login</a></li>
+                <li><a href="sobre_projeto.html" id="navSobre">Sobre o Projeto</a></li>
+                <li><a href="sobre_grupo.html" id="navEquipe">Equipe Responsável</a></li>
+                <li><a href="beneficios.html" id="navBeneficios">Benefícios para o Hospital</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Transformando o Atendimento Hospitalar</h2>
+            <p>Este projeto visa modernizar a infraestrutura hospitalar, otimizando processos e melhorando a qualidade do atendimento.</p>
+            <button id="btnSaibaMais">Saiba mais</button>
+        </section>
+
+        <section id="detalhes" class="hidden">
+            <h2>Detalhes do Projeto</h2>
+            <p>O projeto foca na integração de tecnologias e melhoria de processos dentro do hospital, criando um ambiente mais ágil e eficiente.</p>
+            <p>Equipe multidisciplinar envolvida: médicos, engenheiros, desenvolvedores de TI e gestores de saúde.</p>
+            <button id="btnFechar">Fechar</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Projeto Hospitalar | Desenvolvido por <a href="#">Equipe de TI</a></p>
+    </footer>
+
+    <!--CHAMANDO O 'JS' EXTERNO-->
+    <script src="./src/js/menu.js"></script>
+</body>
+</html>
