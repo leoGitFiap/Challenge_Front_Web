@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    animation: fadeIn 2s ease-out;
     background-color: #f4f4f4;
     color: #333;
     display: flex;
@@ -56,7 +56,7 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: auto;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 -2px 5px #0000001a;
 }
 
 footer p {
@@ -88,7 +88,7 @@ footer ul li a:hover {
 .login-container {
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px #0000001a;
     width: 100%;
     max-width: 400px;
     padding: 30px;
@@ -162,7 +162,16 @@ button.btn:hover {
     text-decoration: underline;
 }
 
-/* Animações */
+/* Animações e transições */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;

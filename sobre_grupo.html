@@ -4,46 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre o Grupo</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Radley?categoryFilters=Feeling:%2FExpressive%2FBusiness;Serif:%2FSerif%2FOld+Style+Garalde">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap">
     <!--CHAMANDO O 'CSS' EXTERNO-->
-    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/css/sobre_grupo.css">
     <style>
-        header{
-            font-family: Eagle Lake;
-        }
-        section{
-            font-family: Eagle Lake;
-        }
-        footer{
-            font-family: Eagle Lake;
+        body{
+            font-family: Radley;
         }
     </style>
 </head>
 <body>
+    <!-- Cabeçalho -->
     <header>
-        <h1>Energia Limpa para um Futuro Mais Sustentável</h1>
+        <div class="logo">
+            <h1>Projeto Hospitalar</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="menu.html" id="navInício">Início</a></li>
+                <li><a href="login.html" id="navEquipe">Login</a></li>
+                <li><a href="sobre_projeto.html" id="navSobre">Sobre o Projeto</a></li>
+                <li><a href="beneficios.html" id="navBeneficios">Benefícios para o Hospital</a></li>
+            </ul>
+        </nav>
     </header>
 
+    <!-- Seção Sobre -->
     <section class="section_sobre">
         <div class="div_sobre">
-            <h3 class="h3">Esse trabalho foi realizado pelo grupo Solares, composto por alunos de Engenharia de Software da FIAP</h3>
+            <h3 class="h3">Esse trabalho foi realizado por alunos de Engenharia de Software da FIAP</h3>
         </div>
         <div class="div_sobre">
             <p>Alunos:</p>
             <ul class="ul">
-                <li>Leonardo Fernandes Mesquita | RM: 559623</li>
-                <li>Guilherme Augusto Caseiro | RM: 559765</li>
-                <li>Marco Antonio Caires Freire | RM: 559256</li>
+                <li>Leonardo Fernandes Mesquita | RM: 559623 <a href="https://github.com/leoGitFiap"><img width="32" src="./src/assets/github.jpg" alt=""></a></li>
+                <li>Guilherme Augusto Caseiro | RM: 559765 <a href="https://github.com/Guiitens2005"><img width="32" src="./src/assets/github.jpg" alt=""></a></li>
+                <li>Marco Antonio Caires Freire | RM: 559256 <a href="https://github.com/MACF77"><img width="32" src="./src/assets/github.jpg" alt=""></a></li>
             </ul>
         </div>
     </section>
 
-    <footer class="footer_sobre">
-        <nav>
-            <ul>
-                <li><a class="a" href="index.html">Home</a></li>
-            </ul>
-        </nav>
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Projeto Hospitalar. Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="#">Termos de Serviço</a></li>
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="#">Ajuda</a></li>
+        </ul>
     </footer>
+
+    <!--CHAMANDO O 'JS' EXTERNO-->
+    <script src="./src/js/sobre_grupo.js"></script>
 </body>
 </html>
