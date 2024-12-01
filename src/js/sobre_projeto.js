@@ -1,10 +1,10 @@
 // Adicionando imagens para o slideshow
 let imagens = [
-    "./src/assets/solar4.jpeg",
-    "./src/assets/solar3.jpeg",
-    "./src/assets/solar.jpeg",
-    "./src/assets/solar2.jpeg",
-    "./src/assets/solar5.jpeg"
+    "./src/assets/sab2.jpeg",
+    "./src/assets/sab3.jpeg",
+    "./src/assets/sab4.jpeg",
+    "./src/assets/sab5.webp",
+    "./src/assets/sab6.webp"
 ];
 
 let i = 0;
