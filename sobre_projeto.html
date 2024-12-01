@@ -4,22 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bem Vindo</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Radley?categoryFilters=Feeling:%2FExpressive%2FBusiness;Serif:%2FSerif%2FOld+Style+Garalde">
     <!--CHAMANDO O 'CSS' EXTERNO-->
     <link rel="stylesheet" href="./src/css/sobre_projeto.css">
     <style>
-        header{
-            font-family: Eagle Lake;
-        }
-        section{
-            font-family: Eagle Lake;
-        }
-        footer{
-            font-family: Eagle Lake;
+        body{
+            font-family: Radley;
         }
     </style>
 </head>
 <body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>Projeto Hospitalar</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="menu.html" id="navInício">Início</a></li>
+                <li><a href="login.html" id="navSobre">Login</a></li>
+                <li><a href="sobre_grupo.html" id="navEquipe">Equipe Responsável</a></li>
+                <li><a href="beneficios.html" id="navBeneficios">Benefícios para o Hospital</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seções de conteúdo -->
     <section class="section_index"> <!--1-->
         <div class="div2">
             <img id="imagehome1"/>
@@ -97,6 +107,17 @@
             <p>A solução facilita a gestão energética, reduz o tempo e a carga de trabalho com otimização automática e contribui para práticas sustentáveis, melhorando a eficiência e economizando recursos.</p>
         </div>
     </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Projeto Hospitalar. Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="#">Termos de Serviço</a></li>
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="#">Ajuda</a></li>
+        </ul>
+    </footer>
+
     <!--CHAMANDO O 'JS' EXTERNO-->
     <script src="./src/js/sobre_projeto.js"></script>
 </body>
