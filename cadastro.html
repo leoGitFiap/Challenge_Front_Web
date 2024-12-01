@@ -3,78 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastre-se</title>
+    <title>Cadastro - Projeto Hospitalar</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Radley?categoryFilters=Feeling:%2FExpressive%2FBusiness;Serif:%2FSerif%2FOld+Style+Garalde">
     <!--CHAMANDO O 'CSS' EXTERNO-->
     <link rel="stylesheet" href="./src/css/cadastro.css">
+    <style>
+        body{
+            font-family: Radley;
+        }
+        button{
+            font-family: Radley;
+        }
+    </style>
 </head>
-
 <body>
 
+    <!-- Header -->
     <header>
-        
-        <h1>Energia Limpa para um Futuro Mais Sustentável</h1>
-        
-        <div class="mudarCor">
-            <input type="button" class="cor1" onclick="trocar('#1be3e0')"/>
-            <input type="button" class="cor2" onclick="trocar('#48c97e')"/>
-            <input type="button" class="cor3" onclick="trocar('#9f2145')"/>
+        <div class="logo">
+            <h1>Projeto Hospitalar</h1>
         </div>
-
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre_solucao.html">Sobre</a></li>
-                <li><a href="quiz.html">Quiz</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="menu.html" id="navInício">Início</a></li>
+                <li><a href="sobre_projeto.html" id="navSobre">Sobre o Projeto</a></li>
+                <li><a href="sobre_grupo.html" id="navEquipe">Equipe Responsável</a></li>
+                <li><a href="beneficios.html" id="navBeneficios">Benefícios para o Hospital</a></li>
             </ul>
         </nav>
-
     </header>
 
-    <section>
-        
-        <div class="main">
-        
-            <h1>Crie sua Conta</h1>
-    
-            <form class="form" id="form">
-                <div class="controle">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email"/>
-                    <i class="sucesso"><img src="./src/assets/sucesso.svg"/></i>
-                    <i class="error"><img src="./src/assets/error.svg"/></i>
-                    <small>Error</small>
-                </div>
-            
-                <div class="controle">
-                    <label for="senha">Senha:</label>
-                    <input type="password" id="senha"/>
-                    <i class="sucesso"><img src="./src/assets/sucesso.svg"/></i>
-                    <i class="error"><img src="./src/assets/error.svg"/></i>
-                    <small>Error</small>
-                </div>
-            
-                <button type="submit">Cadastrar</button>
-            </form>
-            
+    <!-- Body -->
+    <div class="login-container">
+        <form id="cadastroForm" class="login-form">
+            <h2>Cadastre-se</h2>
 
-        </div>
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+            </div>
 
-    </section>
+            <div class="input-group">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+            </div>
 
+            <div class="input-group">
+                <label for="confirmaSenha">Confirmar Senha:</label>
+                <input type="password" id="confirmaSenha" name="confirmaSenha" placeholder="Confirme sua senha" required>
+            </div>
+
+            <button type="submit" id="btnCadastrar" class="btn">Cadastrar</button>
+
+            <div class="login-link">
+                <p>Já tem uma conta?</p>
+                <a href="login.html" id="btnLogin">Faça login aqui</a>
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer -->
     <footer>
-
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre_solucao.html">Sobre</a></li>
-                <li><a href="quiz.html">Quiz</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
-
+        <p>&copy; 2024 Projeto Hospitalar. Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="#">Termos de Serviço</a></li>
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="#">Ajuda</a></li>
+        </ul>
     </footer>
-    
+
     <!--CHAMANDO O 'JS' EXTERNO-->
     <script src="./src/js/cadastro.js"></script>
 </body>

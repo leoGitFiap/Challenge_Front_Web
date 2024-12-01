@@ -71,6 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
     btnCadastrar.addEventListener('click', (e) => {
         e.preventDefault(); // Previne o comportamento padrão de navegação
         alert('Aqui você seria redirecionado para a página de cadastro.');
+        window.location.href = 'cadastro.html';
     });
 });
 
