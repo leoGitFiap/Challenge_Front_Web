@@ -89,7 +89,8 @@ footer ul li a:hover {
 
 /* Seções */
 .section_index {
-    width: 1000px;
+    height: 310px;
+    width: 1050px;
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -119,10 +120,24 @@ p{
     margin: 20px;
 }
 
-#imagehome1, #imagehome2 {
+#imagehome1{
     height: 200px;
     width: 300px;
-    border: 3px solid #ff7b00;
+    border: 3px solid #003cff;
+    border-radius: 15px;
+}
+
+#imagehome2 {
+    height: 200px;
+    width: 300px;
+    border: 3px solid #003cff;
+    border-radius: 15px;
+}
+
+#imagehome3 {
+    height: 250px;
+    width: 350px;
+    border: 3px solid #003cff;
     border-radius: 15px;
 }
 
