@@ -53,7 +53,21 @@
                 <li>Autoavaliação de Sintomas</li>
                 <li>Classificação Automática de Urgência</li>
                 <li>Integração com Sistema de Saúde</li>
+                <li><!-- Botão e aba oculta -->
+                    <button class="saiba-mais" onclick="toggleSection(1)">Saiba Mais</button>
+                </li>
             </ul>
+        </div>
+    </section>
+    
+    <!-- Section Oculta -->
+    <section class="hidden_section" id="section-1" style="display: none;">
+        <div class="div1">            <ul>
+            <li>Registro de Dados Pessoais: O paciente ou responsável insere informações como nome, data de nascimento, número de documento e dados de contato.</li>
+            <li>Autoavaliação de Sintomas: A plataforma coleta informações sobre os sintomas do paciente, utilizando ícones e perguntas direcionadas para crianças e acompanhantes, facilitando a interação.</li>
+            <li>Classificação Automática de Urgência: O sistema classifica o paciente em um dos seguintes grupos: estável, emergente, urgente, muito urgente, com base nas respostas fornecidas.</li>
+            <li>Integração com Sistema de Saúde: Todos os dados são enviados automaticamente para os sistemas hospitalares, agilizando o processo e permitindo que os profissionais de saúde acessem as informações rapidamente.</li>
+        </ul>
         </div>
     </section>
 
@@ -64,10 +78,24 @@
                 <li>Exibição da Posição na Fila</li>
                 <li>Comunicação em Tempo Real</li>
                 <li>Ajustes Dinâmicos</li>
+                <li><!-- Botão e aba oculta -->
+                    <button class="saiba-mais" onclick="toggleSection(2)">Saiba Mais</button>
+                </li>
             </ul>
         </div>
         <div class="div3">
             <img src="./src/assets/sab2.jpeg" id="imagehome3"/>
+        </div>
+    </section>
+
+    <!-- Section Oculta -->
+    <section class="hidden_section" id="section-2" style="display: none;">
+        <div class="div1">
+            <ul>
+                <li>Exibição da Posição na Fila: Os televisores distribuídos no Pronto Socorro mostrarão a posição do paciente na fila de atendimento, bem como a categoria de urgência (ex: “Você está em 4º lugar - Urgente”).</li>
+                <li>Comunicação em Tempo Real: Pacientes e acompanhantes poderão ver, em tempo real, a classificação do atendimento e o tempo estimado até o chamado. Isso proporciona transparência e reduz a ansiedade.</li>
+                <li>Ajustes Dinâmicos: O sistema ajusta a posição na fila de acordo com a triagem automatizada realizada nos totens. Casos mais urgentes são atendidos primeiro.</li>
+            </ul>
         </div>
     </section>
 
@@ -77,6 +105,19 @@
         </div>
         <div class="div1_invert">
             <h3>Público Alvo:</h3>
+            <ul>
+                <li class="li1">Pacientes (crianças)</li>
+                <li class="li1">Acompanhantes (pais e responsáveis)</li>
+                <li><!-- Botão e aba oculta -->
+                    <button class="saiba-mais" onclick="toggleSection(3)">Saiba Mais</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <!-- Section Oculta -->
+    <section class="hidden_section" id="section-3" style="display: none;">
+        <div class="div1">
             <ul>
                 <li class="li1">Pacientes (crianças): Idade predominante: 0 a 12 anos. Necessidades: Atendimento humanizado, segurança, conforto durante consultas e tratamentos.</li>
                 <li class="li1">Acompanhantes (pais e responsáveis): Dores: Falta de informações em tempo real, dificuldade de comunicação, longas esperas, processos burocráticos.</li>
@@ -88,12 +129,25 @@
         <div class="div1">
             <h3>Público Alvo:</h3>
             <ul>
-                <li class="li1">Profissionais de saúde (médicos, enfermeiros, técnicos): Dores: Falta de integração entre sistemas, processos repetitivos, alta carga de trabalho manual, dificuldade no acesso a dados do paciente.</li>
-                <li class="li1">Equipe de apoio (administração, recepção, limpeza, manutenção): Dores: Gerenciamento ineficiente de tarefas, comunicação interna limitada, dificuldade em priorizar atendimentos críticos.</li>
+                <li class="li1">Profissionais de saúde (médicos, enfermeiros, técnicos)</li>
+                <li class="li1">Equipe de apoio (administração, recepção, limpeza, manutenção)</li>
+                <li><!-- Botão e aba oculta -->
+                    <button class="saiba-mais" onclick="toggleSection(4)">Saiba Mais</button>
+                </li>
             </ul>
         </div>
         <div class="div3">
             <img src="./src/assets/sab4.jpeg" id="imagehome3"/>
+        </div>
+    </section>
+    
+    <!-- Section Oculta -->
+    <section class="hidden_section" id="section-4" style="display: none;">
+        <div class="div1">
+            <ul>
+                <li class="li1">Profissionais de saúde (médicos, enfermeiros, técnicos): Dores: Falta de integração entre sistemas, processos repetitivos, alta carga de trabalho manual, dificuldade no acesso a dados do paciente.</li>
+                <li class="li1">Equipe de apoio (administração, recepção, limpeza, manutenção): Dores: Gerenciamento ineficiente de tarefas, comunicação interna limitada, dificuldade em priorizar atendimentos críticos.</li>
+            </ul>
         </div>
     </section>
 
@@ -109,9 +163,26 @@
                 <li>Melhoria na Experiência do Paciente</li>
                 <li>Sustentabilidade</li>
                 <li>Maior Transparência e Comunicação</li>
+                <li><!-- Botão e aba oculta -->
+                    <button class="saiba-mais" onclick="toggleSection(5)">Saiba Mais</button>
+                </li>
             </ul>
         </div>
     </section>
+    
+    <!-- Section Oculta -->
+    <section class="hidden_section" id="section-5" style="display: none;">
+        <div class="div1">
+            <ul>
+                <li>Redução do Tempo de Espera: A triagem automatizada acelera o processo e permite que os pacientes sejam categorizados e chamados mais rapidamente.</li>
+                <li>Aumento da Eficiência e Precisão: A automação da triagem reduz os erros humanos e melhora a precisão na classificação de urgência.</li>
+                <li>Melhoria na Experiência do Paciente: Com a exibição da posição na fila em tempo real, os pacientes e acompanhantes ficam mais informados, reduzindo a ansiedade.</li>
+                <li>Sustentabilidade: A solução se adapta à infraestrutura de energia solar inteligente do hospital, garantindo baixo consumo energético e alinhamento com práticas sustentáveis.</li>
+                <li>Maior Transparência e Comunicação: A exibição da posição na fila e do status de atendimento nas telas melhora a comunicação com os pacientes, tornando o ambiente mais organizado e acolhedor.</li>
+            </ul>
+        </div>
+    </section>
+
 
     <!-- Rodapé -->
     <footer>

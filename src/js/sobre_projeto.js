@@ -29,6 +29,18 @@ function slideShow2() {
 
 slideShow2();
 
+// Função para alternar a visibilidade de novas sections
+function toggleSection(num) {
+    const section = document.getElementById('section-' + num);
+    
+    // Verifica se a section está visível ou não e alterna a exibição
+    if (section.style.display === 'none' || section.style.display === '') {
+        section.style.display = 'block'; // Exibe a nova section
+    } else {
+        section.style.display = 'none'; // Esconde a section
+    }
+}
+
 // Efeito de mudança de cor no cabeçalho quando o mouse passa sobre o menu
 const navLinks = document.querySelectorAll('header nav ul li a');
 navLinks.forEach(link => {

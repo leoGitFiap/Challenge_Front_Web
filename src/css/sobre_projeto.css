@@ -150,12 +150,14 @@ p{
 }
 
 h3 {
+    font-weight: bolder;
     font-size: 1.5rem;
     margin-bottom: 20px;
     color: #000;
 }
 
 ul {
+    font-weight: bolder;
     list-style: none;
     padding-left: 0;
     text-align: left;
@@ -166,6 +168,40 @@ ul li {
     width: 300px;
     text-align: center;
     margin-bottom: 10px;
+}
+
+/* Estilo do botão "Saiba Mais" */
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: scale(1.1);
+}
+
+/* Estilo da aba oculta */
+.hidden_section {
+    font-weight: bolder;
+    height: auto;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-image: linear-gradient(to right, #3ae320, #f4f4f4, #f4f4f4, #f4f4f4, #3ae320);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px #000000ac;
 }
 
 /* Efeitos de animação */
