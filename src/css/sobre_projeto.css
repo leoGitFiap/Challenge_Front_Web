@@ -8,7 +8,11 @@
 body {
     animation: fadeIn 2s ease-out;
     background-color: #f4f4f4;
-    color: #ffffff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
 }
 
 /* Header */
@@ -93,13 +97,14 @@ footer ul li a:hover {
     width: 1050px;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
     padding: 20px;
-    background-image: linear-gradient(to right, #3ae320, #003cff, #3ae320);
-    border-radius: 8px;
+    background-image: linear-gradient(to right, #007BFF, #3ae320, #3ae320, #3ae320, #007BFF, #3ae320, #3ae320, #3ae320, #007BFF);
+    border-radius: 20px;
 }
 
 .div1, .div1_invert {
@@ -123,28 +128,28 @@ p{
 #imagehome1{
     height: 200px;
     width: 300px;
-    border: 3px solid #003cff;
+    border: 3px solid #ff0000;
     border-radius: 15px;
 }
 
 #imagehome2 {
     height: 200px;
     width: 300px;
-    border: 3px solid #003cff;
+    border: 3px solid #ff0000;
     border-radius: 15px;
 }
 
 #imagehome3 {
     height: 250px;
     width: 350px;
-    border: 3px solid #003cff;
+    border: 3px solid #ff0000;
     border-radius: 15px;
 }
 
 h3 {
     font-size: 1.5rem;
     margin-bottom: 20px;
-    color: #fff;
+    color: #000;
 }
 
 ul {
@@ -157,7 +162,7 @@ ul li {
     justify-self: center;
     width: 300px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /* Efeitos de animação */

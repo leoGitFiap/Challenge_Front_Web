@@ -1,5 +1,6 @@
 // Adicionando imagens para o slideshow
 let imagens = [
+    "./src/assets/sab1.jpeg",
     "./src/assets/sab2.jpeg",
     "./src/assets/sab3.jpeg",
     "./src/assets/sab4.jpeg",

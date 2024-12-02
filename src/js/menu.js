@@ -1,29 +1,6 @@
 // Função para animar a transição de exibição do conteúdo "Detalhes"
 document.getElementById('btnSaibaMais').addEventListener('click', function() {
-    const detalhes = document.getElementById('detalhes');
-    detalhes.classList.add('visible'); // Tornar a seção "Detalhes" visível com animação
-    detalhes.classList.remove('hidden');
-});
-
-// Função para fechar o conteúdo "Detalhes"
-document.getElementById('btnFechar').addEventListener('click', function() {
-    const detalhes = document.getElementById('detalhes');
-    detalhes.classList.remove('visible');
-    detalhes.classList.add('hidden'); // Recolher a seção "Detalhes" com animação
-});
-
-// Função para animar a transição de exibição do conteúdo "Detalhes"
-document.getElementById('btnSaibaMais2').addEventListener('click', function() {
-    const detalhes = document.getElementById('detalhes2');
-    detalhes.classList.add('visible2'); // Tornar a seção "Detalhes" visível com animação
-    detalhes.classList.remove('hidden2');
-});
-
-// Função para fechar o conteúdo "Detalhes"
-document.getElementById('btnFechar2').addEventListener('click', function() {
-    const detalhes = document.getElementById('detalhes2');
-    detalhes.classList.remove('visible2');
-    detalhes.classList.add('hidden2'); // Recolher a seção "Detalhes" com animação
+    window.location.href="sobre_projeto.html"
 });
 
 // Efeito de mudança de cor no cabeçalho quando o mouse passa sobre o menu
