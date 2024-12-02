@@ -2,7 +2,8 @@ Olá!!!
 
 Este projeto visa facilitar on atendimento do Hospital Sabará.
 
-Para conferir os detalhes, clique na opção 'Saiba mais' presente no menu.
+O link 'Sobre o Projeto' propositalmente direciona à página de login que, após efetuado, te levará à 'Sobre o Projeto'.
+Para facilitar seu acesso, pode-se clicar na opção 'Saiba mais' presente no menu.
 
 Integrantes:
 Leonardo Fernandes Mesquita | RM: 559623
